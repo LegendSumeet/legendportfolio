@@ -83,9 +83,9 @@ const CaseStudyPage = async ({ params }: PageProps) => {
                   height={32}
                   className="rounded-md"
                 />
-                <h2 className="text-xl font-bold">{client.name}</h2>
+                <h2 className="text-xl text-white font-bold">{client.name}</h2>
               </div>
-              <p className="w-80 text-sm">
+              <p className="w-80 text-sm text-white">
                 <strong>Tech used: </strong>
                 {skills.join(", ")}
               </p>
@@ -105,7 +105,7 @@ const CaseStudyPage = async ({ params }: PageProps) => {
                 altText={title}
               />
             </div>
-			
+
           </div>
         </Container>
       </AnimatePage>
