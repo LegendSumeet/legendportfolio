@@ -1,7 +1,8 @@
-import type { BlockContent, Company } from '@types';
+import { BlockContent } from "./blockContent";
+import { Company } from "./company";
 
 export interface CaseStudy {
-	body: BlockContent[];
+	body: String;
 	client: Company;
 	mainImage: string;
 	publishedAt: string;
