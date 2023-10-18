@@ -15,7 +15,7 @@ const SocialIcons = ({ profiles, className }: SocialIconsProps) => {
 		<ul className={cn('flex flex-wrap gap-6', className)}>
 			{profiles.map(({ url, name, icon }) => (
 				<li
-					className="text-2xl opacity-70 transition hover:opacity-100"
+					className="text-2xl opacity-100 text-white transition hover:opacity-100"
 					key={name}
 				>
 					<a href={url} target="_blank" rel="noopener noreferrer" title={name}>

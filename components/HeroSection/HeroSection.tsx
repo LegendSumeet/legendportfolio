@@ -59,8 +59,8 @@ export const HeroSection = () => {
 					<Image
 						src="/Photo.png"
 						alt="Photo of Sumeet Vishwakarma"
-						height={300}
-						width={450}
+						height={450}
+						width={500}
 						loading="eager"
 						className="mt-10 aspect-[6/5] max-w-full rounded-2xl object-cover sm:mt-16 lg:ml-20 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
 					/>

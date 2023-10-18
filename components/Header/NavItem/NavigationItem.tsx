@@ -36,8 +36,8 @@ const NavigationItem = ({
 				href={href}
 				className={classNames(
 					isActive
-						? 'font-bold text-off-black dark:text-off-white'
-						: 'font-medium text-slate-700 hover:text-off-black dark:text-slate-400 dark:hover:text-off-white md:text-slate-500 md:dark:text-slate-400',
+						? 'font-bold text-white dark:text-white'
+						: 'font-medium text-white hover:text-off-black dark:text-white dark:hover:text-off-white md:text-white md:dark:text-white',
 					'md:underlined relative block whitespace-nowrap text-2xl transition md:text-lg'
 				)}
 			>

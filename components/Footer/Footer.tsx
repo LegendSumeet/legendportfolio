@@ -11,10 +11,10 @@ import { SocialIcons } from './SocialIcons/SocialIcons';
 
 const Footer = () => {
 	return (
-		<footer className="mt-8 py-8 md:mt-20 bg-white">
-			<Container className="flex flex-col-reverse gap-4 md:flex-row md:justify-between">
+		<footer className="mt-8 py-8 md:mt-20 ">
+			<Container className="flex flex-col-reverse gap-4 text-white md:flex-row md:justify-between">
 				<span className="text-center md:text-left">
-					&copy; {new Date().getFullYear()} Jacob Herper
+					&copy; {new Date().getFullYear()} Sumeet Vishwakarma
 				</span>
 				<SocialIcons
 					profiles={[

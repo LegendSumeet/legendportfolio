@@ -1,5 +1,6 @@
 import { Container } from "@/components/Header/Container";
 import { HeroSection } from "@/components/HeroSection";
+import { AnimatePage } from "@/components/animate";
 import Brand from "@/components/barnds/Brands";
 import { Service } from "@/components/services";
 import Image from "next/image";
@@ -7,6 +8,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
+		<AnimatePage>
       <HeroSection />
       <section id="services">
 				<Container>
@@ -32,7 +34,7 @@ export default function Home() {
 				</Container>
 			</section>
      
-
+			</AnimatePage>
     </main>
   );
 }
