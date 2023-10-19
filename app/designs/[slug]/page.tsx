@@ -1,13 +1,10 @@
 import { Button } from "@/components/Button";
-import { FloatingImages } from "@/components/FloatingImages";
 import { Container } from "@/components/Header/Container/Container";
 import { AnimatePage } from "@/components/animate/AnimatePage";
 import { ContentBlock } from "@/components/content/ContentBlock";
+import { Floatingvideos } from "@/components/designs/FloatingImages copy";
 import { CaseStudy } from "@/types/caseStudy";
-
-import Image from "next/image";
-import React from "react";
-// Adjust the path
+import React, { useEffect, useRef } from "react";
 
 const caseStudiesData: CaseStudy[] = [
   {
@@ -32,9 +29,12 @@ const caseStudiesData: CaseStudy[] = [
       url: "https://www.client1.com",
       logo: "/Photo.png",
     },
-    mainImage: "/Photo.png",
+    mainImage: "/ui1.mp4",
     publishedAt: "2023-01-15",
-    secondaryImages: ["/Photo.png", "/Photo.png"],
+    secondaryImages: [
+      "https://cdn.sanity.io/files/r115idoc/production/b93de3c461d165c7178ec3e3f7ac7fe04756fe20.mp4",
+      "https://cdn.sanity.io/files/r115idoc/production/b93de3c461d165c7178ec3e3f7ac7fe04756fe20.mp4",
+    ],
     seoDescription: "Description for SEO 1",
     skills: ["Skill 1", "Skill 2"],
     slug: "sample-case-study-1",
@@ -86,7 +86,7 @@ const getData = (slug: string) => {
   return caseStudy || null;
 };
 
-const CaseStudyPages = async ({ params }: PageProps) => {
+const CaseStudyPage = async ({ params }: PageProps) => {
   const { slug } = params;
 
   try {
@@ -103,7 +103,7 @@ const CaseStudyPages = async ({ params }: PageProps) => {
       <AnimatePage>
         <Container>
           <div className="-mb-8 md:mb-0">
-            <FloatingImages mainImage={mainImage} altText={title} />
+            <Floatingvideos mainImage={mainImage} altText={title} />
           </div>
           <h1 className="headline mt-8  text-3xl md:text-4xl lg:text-5xl">
             {title}
@@ -137,4 +137,4 @@ const CaseStudyPages = async ({ params }: PageProps) => {
   }
 };
 
-export default CaseStudyPages;
+export default CaseStudyPage;

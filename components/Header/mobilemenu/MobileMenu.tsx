@@ -25,7 +25,7 @@ export const MobileMenu = ({ isOpen }: MobileMenuProps) => {
 		<AnimatePresence>
 			{isOpen ? (
 				<motion.div
-					className="fixed top-0 z-40 h-screen w-screen gap-12 bg-gradient-to-b from-grey-200 to-transparent p-4 backdrop-blur-3xl transition-all delay-100 duration-700 ease-in-out dark:from-grey-900 md:hidden"
+					className="fixed top-0 left-0 z-40 h-screen w-screen gap-12 bg-gradient-to-b from-grey-200 to-transparent p-4 backdrop-blur-3xl transition-all delay-100 duration-700 ease-in-out dark:from-grey-900 md:hidden"
 					initial={{ opacity: 0, y: '-50%', x: 0 }}
 					animate={{ opacity: 1, y: 0, x: 0 }}
 					exit={{ opacity: 0, y: '-50%' }}

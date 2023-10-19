@@ -1,4 +1,5 @@
-import type { BlockContent, Company } from '@types';
+import { BlockContent } from "./blockContent";
+import { Company } from "./company";
 
 export interface Job {
 	jobTitle: string;

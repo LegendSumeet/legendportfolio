@@ -15,6 +15,10 @@ export const navItems = [
 		href: '/about',
 		title: 'About',
 	},
+	{
+		href: '/designs',
+		title: 'Designs',
+	},
 	
 	{
 		href: '/case-studies',
@@ -81,7 +85,7 @@ export const Header = () => {
 							</ul>
 						</nav>
 						<button
-							className="absolute right-4 top-8 z-50 md:hidden"
+							className="absolute right-4 top-8 z-40 md:hidden"
 							onClick={() => setIsOpen((prev) => !prev)}
 							aria-label="Menu"
 						>

@@ -2,6 +2,7 @@ import { Container } from "@/components/Header/Container";
 import { HeroSection } from "@/components/HeroSection";
 import { AnimatePage } from "@/components/animate";
 import Brand from "@/components/barnds/Brands";
+import badgesData from "@/components/data";
 import SVGImage from "@/components/image";
 import { Service } from "@/components/services";
 import { Serviceres } from "@/components/services/Serviceres";
@@ -42,52 +43,6 @@ export default function Home() {
         <HeroSection />
         <section id="services">
           <Container>
-		  <section id="tools" className="my-40">
-              <Container>
-                <h2 className="headline mt-24 text-center text-xl md:text-2xl lg:text-3xl">
-                  Some of my favourite tools
-                </h2>
-
-                <div className="mx-auto mt-8 flex max-w-5xl flex-wrap items-center justify-center gap-x-16 gap-y-8">
-                  <SVGImage
-                    src="/svelte.svg"
-                    alt="SvelteKit"
-                    width={50}
-                    height={50}
-                  />
-                  <SVGImage
-                    src="/hygraph.svg"
-                    alt="Hygraph"
-                    width={50}
-                    height={50}
-                  />
-                  <SVGImage
-                    src="/sanity.svg"
-                    alt="Sanity"
-                    width={50}
-                    height={50}
-                  />
-                  <SVGImage
-                    src="/storybook.svg"
-                    alt="Storybook"
-                    width={50}
-                    height={50}
-                  />
-                  <SVGImage
-                    src="/graphql.svg"
-                    alt="GraphQL"
-                    width={50}
-                    height={50}
-                  />
-                  <SVGImage
-                    src="/vercel.svg"
-                    alt="Vercel"
-                    width={50}
-                    height={50}
-                  />
-                </div>
-              </Container>
-            </section>
             <h2 className="headline mt-20 text-2xl md:text-4xl lg:text-5xl">
               Services I provide
               <span className="mt-2 block text-xl font-bold text-white dark:text-off-white md:text-2xl">
@@ -95,7 +50,7 @@ export default function Home() {
                 and websites that people love.
               </span>
             </h2>
-            
+
             <Service {...softwareConsultancyData} />
             <Serviceres {...websiteDevelopmentData} />
             <Service {...ecommmerce} />

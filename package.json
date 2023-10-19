@@ -12,6 +12,7 @@
     "@mailchimp/mailchimp_marketing": "^3.0.80",
     "@portabletext/react": "^3.0.11",
     "@sentry/nextjs": "^7.74.1",
+    "@tailwindcss/typography": "^0.5.10",
     "classnames": "^2.3.2",
     "date-fns": "^2.30.0",
     "focus-trap-react": "^10.2.3",

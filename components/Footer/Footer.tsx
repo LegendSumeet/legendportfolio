@@ -20,34 +20,30 @@ const Footer = () => {
 					profiles={[
 						{
 							name: 'Github',
-							url: 'https://www.github.com/jakeherp',
+							url: 'https://www.github.com/LegendSumeet',
 							icon: <IconGithub />,
 						},
 						{
 							name: 'LinkedIn',
-							url: 'https://www.linkedin.com/in/jacobherper',
+							url: 'https://www.linkedin.com/in/sumeetvishwakarma/',
 							icon: <IconLinkedin />,
 						},
 						{
 							name: 'Instagram',
-							url: 'https://www.instagram.com/jakeherp',
+							url: 'https://www.instagram.com/legendsumeet',
 							icon: <IconInstagram />,
 						},
 						{
 							name: 'X.com',
-							url: 'https://twitter.com/jakeherp',
+							url: 'https://twitter.com/Legendsumeet07',
 							icon: <IconX />,
 						},
 						{
 							name: 'Threads',
-							url: 'https://www.threads.net/@jakeherp',
+							url: 'https://www.threads.net/@legendsumeet',
 							icon: <IconThreads />,
 						},
-						{
-							name: 'Bluesky Social',
-							url: 'https://bsky.app/profile/jakeherp.com',
-							icon: <IconBsky />,
-						},
+					
 					]}
 					className="justify-center md:justify-end"
 				/>

@@ -2,7 +2,7 @@ import { BlockContent } from "./blockContent";
 import { Company } from "./company";
 
 export interface CaseStudy {
-	body: String;
+	body: BlockContent[];
 	client: Company;
 	mainImage: string;
 	publishedAt: string;

@@ -30,7 +30,7 @@ const Logo = ({ hideName }: LogoProps) => {
 						<span className="opacity-100 text-white transition duration-300 group-hover:opacity-0">
 							@LegendSumeet
 						</span>
-						<span className="absolute left-16 from-blue-400 to-blue-700 opacity-0 transition duration-300 group-hover:bg-gradient-to-r group-hover:bg-clip-text group-hover:text-transparent group-hover:opacity-100">
+						<span className="absolute text-xl left-16 from-blue-400 to-blue-700 opacity-0 transition duration-300 group-hover:bg-gradient-to-r group-hover:bg-clip-text group-hover:text-transparent group-hover:opacity-100">
 							Sumeet Vishwakarma
 						</span>
 					</>

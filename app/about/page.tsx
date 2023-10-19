@@ -1,5 +1,6 @@
 import { Button } from "@/components/Button/Button";
 import { Education } from "@/components/Education";
+import { WorkExperience } from "@/components/Experince";
 import { IconDownload } from "@/components/Footer/Icons/IconDownload";
 import { Container } from "@/components/Header/Container/Container";
 import { AnimatePage } from "@/components/animate";
@@ -46,34 +47,136 @@ const AboutPage = async () => {
         </p>
         <h2 className="headline mb-4 mt-12 text-4xl">Experience</h2>
 
-        <Education
-          education={[
-            {
-              course: "Bachelor of Science in Information Technology",
-              courseContents: [
-                "Programming Fundamentals",
-                "Data Structures",
-                "Algorithms",
-              ],
-              date: "2024-06-01",
-              institution: {
-                logo: "/Photo.png",
-                name: "Example University",
-                url: "https://www.exampleuniversity.com",
-              },
+        <WorkExperience jobs={[
+          {
+            "jobTitle": "Software Engineer",
+            "company": {
+              "logo": "/Photo.png",
+              "name": "Example Corp",
+              "url": "https://www.examplecorp.com"
             },
-            {
-              course: "Web Development Bootcamp",
-              courseContents: ["HTML", "CSS", "JavaScript", "Node.js", "React"],
-              date: "2023-03-20",
-              institution: {
-                logo: "/Photo.png",
-                name: "Coding Academy",
-                url: "https://www.codingacademy.com",
+            "description": [
+              {
+                "_key": "1",
+                "_type": "block",
+                "style": "normal",
+                "children": [
+                  {
+                    "marks": [],
+                    "_key": "2",
+                    "_type": "span",
+                    "text": "Worked on the development of web applications using modern technologies.Worked on the development of web applications using modern technologies.Worked on the development of web applications using modern technologies.Worked on the development of web applications using modern technologies."
+                  }
+                ],
+                "markDefs":[]
+              
               },
+              {
+                "_key": "3",
+                "_type": "block",
+                "style": "normal",
+                "children": [
+                  {
+                    "marks":[],
+                    "_key": "4",
+                    "_type": "span",
+                    "text": "Collaborated with cross-functional teams to deliver high-quality software."
+                  }
+                ],
+                "markDefs": []
+              }
+            ],
+            "fromDate": "January 2020",
+            "toDate": "December 2022",
+            "skills": ["JavaScript", "React", "Node.js", "HTML", "CSS"]
+          },
+          {
+            "jobTitle": "Software Engineer",
+            "company": {
+              "logo": "/Photo.png",
+              "name": "Example Corp",
+              "url": "https://www.examplecorp.com"
             },
-          ]}
-        ></Education>
+            "description": [
+              {
+                "_key": "1",
+                "_type": "block",
+                "style": "normal",
+                "children": [
+                  {
+                    "marks": [],
+                    "_key": "2",
+                    "_type": "span",
+                    "text": "Worked on the development of web applications using modern technologies.Worked on the development of web applications using modern technologies.Worked on the development of web applications using modern technologies.Worked on the development of web applications using modern technologies."
+                  }
+                ],
+                "markDefs":[]
+              
+              },
+              {
+                "_key": "3",
+                "_type": "block",
+                "style": "normal",
+                "children": [
+                  {
+                    "marks":[],
+                    "_key": "4",
+                    "_type": "span",
+                    "text": "Collaborated with cross-functional teams to deliver high-quality software."
+                  }
+                ],
+                "markDefs": []
+              }
+            ],
+            "fromDate": "January 2020",
+            "toDate": "December 2022",
+            "skills": ["JavaScript", "React", "Node.js", "HTML", "CSS"]
+          },
+          {
+            "jobTitle": "Software Engineer",
+            "company": {
+              "logo": "/Photo.png",
+              "name": "Example Corp",
+              "url": "https://www.examplecorp.com"
+            },
+            "description": [
+              {
+                "_key": "1",
+                "_type": "block",
+                "style": "normal",
+                "children": [
+                  {
+                    "marks": [],
+                    "_key": "2",
+                    "_type": "span",
+                    "text": "Worked on the development of web applications using modern technologies.Worked on the development of web applications using modern technologies.Worked on the development of web applications using modern technologies.Worked on the development of web applications using modern technologies."
+                  }
+                ],
+                "markDefs":[]
+              
+              },
+              {
+                "_key": "3",
+                "_type": "block",
+                "style": "normal",
+                "children": [
+                  {
+                    "marks":[],
+                    "_key": "4",
+                    "_type": "span",
+                    "text": "Collaborated with cross-functional teams to deliver high-quality software."
+                  }
+                ],
+                "markDefs": []
+              }
+            ],
+            "fromDate": "January 2020",
+            "toDate": "December 2022",
+            "skills": ["JavaScript", "React", "Node.js", "HTML", "CSS"]
+          }
+          
+        ]}/>
+        
 
         <h2 className="headline mb-4 mt-12 text-4xl">Education</h2>
         <p className="mb-6 text-white">
