@@ -15,16 +15,13 @@ export const navItems = [
 		href: '/about',
 		title: 'About',
 	},
-	{
-		href: '/uses',
-		title: 'Uses',
-	},
+	
 	{
 		href: '/case-studies',
-		title: 'Case Studies',
+		title: 'Projects',
 	},
 	{
-		href: '/blog',
+		href: 'https://dev.to/legendsumeet',
 		title: 'Blog',
 	},
 	{

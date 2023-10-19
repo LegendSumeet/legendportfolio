@@ -12,9 +12,9 @@ const caseStudiesData: CaseStudy[] = [
 		  "client": {
 			"name": "Client 1",
 			"url": "https://www.client1.com",
-			"logo": "/Photo.png"
+			"logo": "https://sumeet.netlify.app/static/media/codehub.6ebac7405ae13158f6fe.jpg"
 		  },
-		  "mainImage": "/Photo.png",
+		  "mainImage": "https://sumeet.netlify.app/static/media/codehub.6ebac7405ae13158f6fe.jpg",
 		  "publishedAt": "2023-01-15",
 		  "secondaryImages": ["/Photo.png", "/Photo.png"],
 		  "seoDescription": "Description for SEO 1",
@@ -30,7 +30,7 @@ const caseStudiesData: CaseStudy[] = [
 			"url": "https://www.client2.com",
 			"logo": "/Photo.png"
 		  },
-		  "mainImage": "/Photo.png",
+		  "mainImage": "https://sumeet.netlify.app/static/media/photo.2fbc295cf275f682fb0a.png",
 		  "publishedAt": "2023-02-20",
 		  "secondaryImages": ["/Photo.png", "/Photo.png"],
 		  "seoDescription": "Description for SEO 2",

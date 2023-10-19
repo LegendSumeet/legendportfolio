@@ -3,7 +3,9 @@ const nextConfig = {}
 
 module.exports = {
     images: {
-      domains: ['png2.cleanpng.com'],
+      domains: ['png2.cleanpng.com','sumeet.netlify.app'],
+      
+
     },
   };
   

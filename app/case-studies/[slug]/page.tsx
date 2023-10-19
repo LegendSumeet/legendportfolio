@@ -32,7 +32,7 @@ const caseStudiesData: CaseStudy[] = [
       url: "https://www.client2.com",
       logo: "/Photo.png",
     },
-    mainImage: "/Photo.png",
+    mainImage: "https://sumeet.netlify.app/static/media/photo.2fbc295cf275f682fb0a.png",
     publishedAt: "2023-02-20",
     secondaryImages: ["/Photo.png", "/Photo.png"],
     seoDescription: "Description for SEO 2",

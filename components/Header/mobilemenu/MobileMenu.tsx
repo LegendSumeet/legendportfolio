@@ -25,7 +25,7 @@ export const MobileMenu = ({ isOpen }: MobileMenuProps) => {
 		<AnimatePresence>
 			{isOpen ? (
 				<motion.div
-					className="fixed top-0 z-40 h-screen w-screen gap-12 bg-gradient-to-b from-grey-200 to-transparent p-4 backdrop-blur-xl transition-all delay-100 duration-700 ease-in-out dark:from-grey-900 md:hidden"
+					className="fixed top-0 z-40 h-screen w-screen gap-12 bg-gradient-to-b from-grey-200 to-transparent p-4 backdrop-blur-3xl transition-all delay-100 duration-700 ease-in-out dark:from-grey-900 md:hidden"
 					initial={{ opacity: 0, y: '-50%', x: 0 }}
 					animate={{ opacity: 1, y: 0, x: 0 }}
 					exit={{ opacity: 0, y: '-50%' }}
@@ -36,7 +36,7 @@ export const MobileMenu = ({ isOpen }: MobileMenuProps) => {
 							clickOutsideDeactivates: true,
 						}}
 					>
-						<ul className="align-center flex h-full flex-col justify-center gap-4 text-center">
+						<ul className="align-center flex h-full w-full flex-col justify-center gap-4 text-center">
 							{navItems.map(({ href, title }, i) => (
 								<NavigationItem
 									key={href}

@@ -35,17 +35,17 @@ const CaseStudyss = ({
 	const isEven = index % 2 === 0;
 
 	return (
-		<article className="mt-24 transition first-of-type:mt-0 md:hover:scale-[1.01] lg:w-4/5">
+		<article className="mt-24  transition first-of-type:mt-0 md:hover:scale-[1.01] lg:w-full">
 			<Link href={`/case-studies/${slug}`} className="group">
 				<Box>
 					<div
-						className={classNames('flex flex-col gap-4', {
+						className={classNames('flex flex-col  gap-4', {
 							'md:flex-row': isEven,
 							'md:flex-row-reverse': !isEven,
 						})}
 					>
-						<div className="flex h-full flex-col md:w-1/2">
-							<h1 className="mb-2 text-xl font-bold md:text-3xl">{title}</h1>
+						<div className="flex  h-full flex-col md:w-full">
+							<h1 className="mb-2 text-white text-xl font-bold md:text-3xl">{title}</h1>
 							<div className="mb-4 flex items-center gap-2">
 								<Image
 									src={client.logo}
@@ -54,16 +54,16 @@ const CaseStudyss = ({
 									height={32}
 									className="rounded-md"
 								/>
-								<h2 className="font-bold">{client.name}</h2>
+								<h2 className="font-bold text-white">{client.name}</h2>
 							</div>
-							<p className="max-w-xs text-sm">
+							<p className="max-w-xs text-sm text-white ">
 								<strong>Tech used: </strong>
 								{skills.join(', ')}
 							</p>
 						</div>
 						<div
 							className={classNames(
-								'-mx-10 -mb-12 md:mx-0 md:-mb-12 md:-mt-8',
+								'-mx-10 px-4 -mb-12 md:mx-0 md:-mb-12 md:-mt-8',
 								{
 									'md:-mr-20': isEven,
 									'md:-ml-20': !isEven,
