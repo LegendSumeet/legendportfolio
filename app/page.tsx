@@ -26,7 +26,7 @@ export default function Home() {
     slug: "2",
     image:
       "https://cdn.sanity.io/images/yq5nnpfd/production/4003b5d63e0fe7d71b95891a263c0fa203580dc1-900x600.svg",
-    body: "I've been building websites and apps for over year now, working with clients from startups to large enterprise businesses. I like to focus on accessibility, performance, and clean code.  I help my clients create the best possible digital products for their businesses. I don't just develop websites and apps, I make them beautiful, fast and accessible to people with disabilities. My goal is to work with you to help you reach your full potential.",
+    body: "I've been building websites and apps for over year now I like to focus on accessibility, performance, and clean code.  I help my clients create the best possible digital products for their businesses. I don't just develop websites and apps, I make them beautiful, fast and accessible to people with disabilities. My goal is to work with you to help you reach your full potential.",
   };
   const ecommmerce = {
     title: "E-Commerce",

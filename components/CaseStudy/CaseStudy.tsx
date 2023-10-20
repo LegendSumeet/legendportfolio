@@ -34,15 +34,11 @@ const CaseStudyss = ({
               <h1 className="mb-2 text-xl text-white font-bold md:text-6xl">
                 {title}
               </h1>
-
-              <p className="max-w-xs text-sm text-white">
+              <p className="max-w-xs sm:mt-10 text-sm text-white sm:text-2xl">
                 <strong>Tech used: </strong>
                 {skills.join(", ")}
               </p>
-              <p className="max-w-xs text-sm text-white">
-                <strong>Tech used: </strong>
-                {skills.join(", ")}
-              </p>
+            
             </div>
             <div
               className={classNames(
