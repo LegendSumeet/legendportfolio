@@ -34,9 +34,8 @@ export const HeroSection = () => {
 					<div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
 						<p className="text-lg leading-8 text-white dark:text-off-white">
 							I am a passionate Software Engineer, specialised in Full-Stack and Flutter 
-							development using Next js and Node js. As an advocate for web and app
-							performance and accessibility and an evangelist for the Jamstack,
-							I create amazing web applications and appaaghg to make the internet a better
+							development using Next js and Node js. As an developer for web and app
+							performance and accessibility,I create amazing web applications and Flutter App to make the internet a better
 							place.
 							<br />
 							You can talk to me about <TypeWriter strings={talkAbout} />.
