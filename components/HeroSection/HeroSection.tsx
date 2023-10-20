@@ -5,8 +5,8 @@ import { TypeWriter } from './TypeWriter';
 
 export const HeroSection = () => {
 	const talkAbout = [
-		'React',
-		'JavaScript',
+		'Flutter',
+		'Firebase',
 		'TypeScript',
 		'GraphQL',
 		'Redux',
@@ -15,8 +15,8 @@ export const HeroSection = () => {
 		'RESTful APIs',
 		'HTML',
 		'CSS',
-		'Gatsby',
-		'Svelte',
+		'',
+		
 	];
 
 	return (
