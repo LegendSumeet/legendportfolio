@@ -36,7 +36,7 @@ export const HeroSection = () => {
 							I am a passionate Software Engineer, specialised in front-end
 							development using React and TypeScript. As an advocate for web and app
 							performance and accessibility and an evangelist for the Jamstack,
-							I create amazing web applications to make the internet a better
+							I create amazing web applications and appaaghg to make the internet a better
 							place.
 							<br />
 							You can talk to me about <TypeWriter strings={talkAbout} />.
