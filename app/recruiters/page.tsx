@@ -8,9 +8,9 @@ import { AnimatePage } from "@/components/animate/AnimatePage";
 
 
 export const metadata = {
-	title: 'Recruiter Information about Jacob Herper',
+	title: 'Recruiter Information about Sumeet',
 	description:
-		'Thank you for your interest in me for software engineering roles you are hiring for.',
+		'Thank you for your interest in me for software engineering roles you are hiring me.',
 };
 
 
