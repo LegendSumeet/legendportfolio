@@ -1,58 +1,59 @@
-import mailchimp from '@mailchimp/mailchimp_marketing';
-import * as Sentry from '@sentry/nextjs';
-import md5 from 'md5';
-import { NextApiRequest, NextApiResponse } from 'next';
-import getConfig from 'next/config';
+import nodemailer from "nodemailer";
 
-const {
-	publicRuntimeConfig: { mailchimpApiServer, mailchimpAudienceId },
-	serverRuntimeConfig: { mailchimpApiKey },
-} = getConfig();
+import { NextApiRequest, NextApiResponse } from "next";
+import * as Sentry from "@sentry/nextjs";
 
-mailchimp.setConfig({
-	apiKey: mailchimpApiKey,
-	server: mailchimpApiServer,
+const transporter = nodemailer.createTransport({
+  service: "gmail",
+  auth: {
+    user: "your-email@gmail.com",
+    pass: "your-email-password",
+  },
 });
 
 const signupHandler = async (req: NextApiRequest, res: NextApiResponse) => {
-	const { firstName, lastName, company, email, type } = req.body;
+  const { firstName, lastName, company, email, type } = req.body;
 
-	if (req.method !== 'POST') {
-		return res
-			.status(405)
-			.json({ error: `Method '${req.method}' not allowed` });
-	}
+  if (!email) {
+    return res.status(400).json({ error: "Email is required" });
+  }
 
-	if (!email) {
-		return res.status(400).json({ error: 'Email is required' });
-	}
+  const ticketNumber =
+    Math.random().toString(36).substring(2, 4).toUpperCase() +
+    Math.random().toString().substring(2, 12);
 
-	const hashedEmail = md5(email);
+  const transporter = nodemailer.createTransport({
+    service: "gmail",
+    auth: {
+      user: "sumeetvishwakarma31@gmail.com",
+      pass: "rgzv evtw denl stuv",
+    },
+  });
 
-	try {
-		await mailchimp.lists.setListMember(mailchimpAudienceId, hashedEmail, {
-			email_address: email,
-			status_if_new: 'subscribed',
-			merge_fields: {
-				FNAME: firstName,
-				LNAME: lastName,
-				COMPANY: company,
-				TYPE: type,
-			},
-		});
+  try {
+    const info = await transporter.sendMail({
+      from: `${firstName} ${lastName}${
+        company ? `(${company})` : ""
+      } <your@gmail.com>`,
+      to: "vishwakarmasumeet01@gmail.com", 
+      replyTo: email,
+      subject: `Website Contact:Recruiter (Ticket ${ticketNumber})`,
+      text: type,
+      html: `<div><p>${type}</p></div>`,
+    });
 
-		Sentry.captureEvent({
-			message: 'Recruiter Signup registered',
-			tags: { company, type },
-			level: 'info',
-		});
+    Sentry.captureEvent({
+      message: `Contact Form Submitted`,
+      tags: { ticketNumber },
+      level: "info",
+    });
 
-		return res.status(201).json({ error: '' });
-		// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	} catch (err: any) {
-		Sentry.captureException(err);
-		return res.status(500).json({ error: err.message || err.toString() });
-	}
+    return res.status(200).json({ status: "success" });
+  } catch (error) {
+    Sentry.captureException(error);
+    console.log(error);
+    return res.status(500).json({ error: "Something went wrong" });
+  }
 };
 
 export default signupHandler;

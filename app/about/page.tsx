@@ -24,26 +24,25 @@ const AboutPage = async () => {
           Software Engineer from the India
         </h2>
         <p className="mt-8 text-white">
-          As a passionate front-end developer, I create amazing websites and web
+          As a passionate Software Engineer, I create amazing websites and web
           apps to make the internet a better place. I am an advocate for web
           performance and accessibility as well as a JAMstack enthusiast with
           experience in serverless technologies.
         </p>
         <p className="my-4 text-white ">
-          I am &radic;1,024 years old and have been a web developer for as long
+          I am &radic;400 years old and I am  web and app developer for as long
           as I can think. The technologies I work with are JavaScript, HTML and
-          CSS with a focus on the frameworks React.js, Gatsby, Next.js, Node and
-          Express. I use code not only to do my day-to-day job, but also to
+          CSS with a focus on the frameworks Next.js, Gatsby, Next.js, Node ,
+          Express and Flutter . I use code not only to do my day-to-day job, but also to
           solve everyday problems I come across.
         </p>
         <p className="text-white">
-          When I am not writing code I love to spend time with my wife and
-          five-year-old daughter at home in England or travelling around the
+          When I am not writing code I love to spend time with my cat and
+          love to watch animes or travelling around the
           world. We are quite a multi-cultural family with me having grown up in
-          Germany 🇩🇪 and my wife being from Mexico 🇲🇽, which is why we raise our
-          daughter trilingual. I myself speak five languages (some better than
+          Mumbai, I myself speak five languages (some better than
           others). Furthermore I enjoy cooking fresh food when I come home after
-          a long day at the office.
+          a long day at the College.
         </p>
         <h2 className="headline mb-4 mt-12 text-4xl">Experience</h2>
 
@@ -51,9 +50,9 @@ const AboutPage = async () => {
           {
             "jobTitle": "Software Engineer",
             "company": {
-              "logo": "/Photo.png",
-              "name": "Example Corp",
-              "url": "https://www.examplecorp.com"
+              "logo": "/company.jpg",
+              "name": "BloomStar Technologies",
+              "url": "https://www.linkedin.com/company/bloomstar-technologies"
             },
             "description": [
               {
@@ -65,7 +64,7 @@ const AboutPage = async () => {
                     "marks": [],
                     "_key": "2",
                     "_type": "span",
-                    "text": "Worked on the development of web applications using modern technologies.Worked on the development of web applications using modern technologies.Worked on the development of web applications using modern technologies.Worked on the development of web applications using modern technologies."
+                    "text": "Developed Cross Platform app using Flutter, to create a visually appealing and performant user interfacefor both Android and iOS.Implemented the backend logic and API using Node.js, leveraging its scalability and efficiency to handleAPI requests and communicate with the database. Designed and developed a RESTful API to enable users to search , schedule, and retrieve details, includingauthentication services. Leveraged secure cloud storage solutions for data management and storage."
                   }
                 ],
                 "markDefs":[]
@@ -80,21 +79,21 @@ const AboutPage = async () => {
                     "marks":[],
                     "_key": "4",
                     "_type": "span",
-                    "text": "Collaborated with cross-functional teams to deliver high-quality software."
+                    "text": ""
                   }
                 ],
                 "markDefs": []
               }
             ],
-            "fromDate": "January 2020",
-            "toDate": "December 2022",
-            "skills": ["JavaScript", "React", "Node.js", "HTML", "CSS"]
+            "fromDate": "June 2023",
+            "toDate": "August 2023",
+            "skills": ["Flutter", "Firebase", "Node.js", "API", "System Design",'SDK','Cloud Computing']
           },
           {
-            "jobTitle": "Software Engineer",
+            "jobTitle": "Project Mentor and Developer",
             "company": {
-              "logo": "/Photo.png",
-              "name": "Example Corp",
+              "logo": "/gssoc.png",
+              "name": "GirlScript Summer of Code",
               "url": "https://www.examplecorp.com"
             },
             "description": [
@@ -107,7 +106,7 @@ const AboutPage = async () => {
                     "marks": [],
                     "_key": "2",
                     "_type": "span",
-                    "text": "Worked on the development of web applications using modern technologies.Worked on the development of web applications using modern technologies.Worked on the development of web applications using modern technologies.Worked on the development of web applications using modern technologies."
+                    "text": "Implemented secure user authentication for a website using industry-standard protocols with OAuthand resulting in a 20% decrease in unauthorized access attempts with MFA.Reduced server-client latency by minimizing the key-value terms by 30% while maintaining."
                   }
                 ],
                 "markDefs":[]
@@ -122,22 +121,22 @@ const AboutPage = async () => {
                     "marks":[],
                     "_key": "4",
                     "_type": "span",
-                    "text": "Collaborated with cross-functional teams to deliver high-quality software."
+                    "text": "Facilitated knowledge sharing, problem-solving, and collaboration within the team, fostering a conducive learning environment.Facilitated knowledge sharing, problem-solving, and collaboration within the team, fostering a conducive learning environment."
                   }
                 ],
                 "markDefs": []
               }
             ],
-            "fromDate": "January 2020",
-            "toDate": "December 2022",
-            "skills": ["JavaScript", "React", "Node.js", "HTML", "CSS"]
+            "fromDate": "May 2023",
+            "toDate": "Aug 2023",
+            "skills": ["JavaScript", "React", "Node.js", "MFA"]
           },
           {
-            "jobTitle": "Software Engineer",
+            "jobTitle": "Project Mentor and Developer",
             "company": {
-              "logo": "/Photo.png",
-              "name": "Example Corp",
-              "url": "https://www.examplecorp.com"
+              "logo": "/skill.jpg",
+              "name": "SkillShip Foundation",
+              "url": "https://skillshipfoundation.com/"
             },
             "description": [
               {
@@ -149,7 +148,7 @@ const AboutPage = async () => {
                     "marks": [],
                     "_key": "2",
                     "_type": "span",
-                    "text": "Worked on the development of web applications using modern technologies.Worked on the development of web applications using modern technologies.Worked on the development of web applications using modern technologies.Worked on the development of web applications using modern technologies."
+                    "text": ""
                   }
                 ],
                 "markDefs":[]
@@ -164,16 +163,16 @@ const AboutPage = async () => {
                     "marks":[],
                     "_key": "4",
                     "_type": "span",
-                    "text": "Collaborated with cross-functional teams to deliver high-quality software."
+                    "text": "Facilitated knowledge sharing, problem-solving, and collaboration within the team, fostering a conducive learning environment.Facilitated knowledge sharing, problem-solving, and collaboration within the team, fostering a conducive learning environment"
                   }
                 ],
                 "markDefs": []
               }
             ],
-            "fromDate": "January 2020",
-            "toDate": "December 2022",
-            "skills": ["JavaScript", "React", "Node.js", "HTML", "CSS"]
-          }
+            "fromDate": "March 2021",
+            "toDate": "July 2021",
+            "skills": [ 'Software Project Management' ,"Team Leadership" , " Software Development", "Data Structures" , "GitHub ", 'Java']
+          },
           
         ]}/>
         
@@ -194,18 +193,18 @@ const AboutPage = async () => {
               ],
               date: "2024-06-01",
               institution: {
-                logo: "/Photo.png",
-                name: "Example University",
-                url: "https://www.exampleuniversity.com",
+                logo: "/mu.jpg",
+                name: "University of Mumbai",
+                url: "https://mu.ac.in/",
               },
             },
             {
-              course: "Web Development Bootcamp",
-              courseContents: ["HTML", "CSS", "JavaScript", "Node.js", "React"],
+              course: "Maharashtra State Board of Secondary and Higher Secondary Education",
+              courseContents: ["HTML", "C++", "JavaScript"],
               date: "2023-03-20",
               institution: {
-                logo: "/Photo.png",
-                name: "Coding Academy",
+                logo: "/royal.png",
+                name: "Royal College of Science and Commerce",
                 url: "https://www.codingacademy.com",
               },
             },
@@ -220,8 +219,7 @@ const AboutPage = async () => {
           <p className="text-white">
             I am happy to have a chat about relevant projects to work on. Below
             you find a download link for my up-to-date CV. Are you a recruiter?
-            Have a read through my recruiters page, where I explain what I am
-            looking for in a job. This page is designed to save both of us time.
+           This page is designed to save both of us time.
           </p>
           <p className="text-white">
             If you are interested in working with me, please contact me via{" "}

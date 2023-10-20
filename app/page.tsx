@@ -26,7 +26,7 @@ export default function Home() {
     slug: "2",
     image:
       "https://cdn.sanity.io/images/yq5nnpfd/production/4003b5d63e0fe7d71b95891a263c0fa203580dc1-900x600.svg",
-    body: "I've been building websites and apps for over year now, working with clients from startups to large enterprise businesses. I like to focus on accessibility, performance, and clean code. As a web and mobile development consultant, I help my clients create the best possible digital products for their businesses. I don't just develop websites and apps, I make them beautiful, fast and accessible to people with disabilities. My goal is to work with you to help you reach your full potential.",
+    body: "I've been building websites and apps for over year now, working with clients from startups to large enterprise businesses. I like to focus on accessibility, performance, and clean code.  I help my clients create the best possible digital products for their businesses. I don't just develop websites and apps, I make them beautiful, fast and accessible to people with disabilities. My goal is to work with you to help you reach your full potential.",
   };
   const ecommmerce = {
     title: "E-Commerce",
@@ -34,7 +34,7 @@ export default function Home() {
     slug: "2",
     image:
       "https://cdn.sanity.io/images/yq5nnpfd/production/4003b5d63e0fe7d71b95891a263c0fa203580dc1-900x600.svg",
-    body: "E-commerce development is my trade. I have years of experience working across different industries in B2B and B2C e-commerce development. Whether you're looking to create an MVP or start a new project, I can help you achieve financial goals through performant microservice architecture and modern JavaScript frontends.I can help you design, develop and deploy modern frontend applications built with a microservice architecture. With years of experience working across different industries in B2B and B2C e-commerce development, I can help you achieve financial goals through performant frontends built in React, Redux and GraphQL.",
+    body: "E-commerce development is my trade.  Whether you're looking to create an MVP or start a new project, I can help you achieve financial goals through performant microservice architecture and modern JavaScript frontends.I can help you design, develop and deploy modern frontend applications built with a microservice architecture.  I can help you achieve financial goals through performant frontends built in React, Redux and GraphQL.",
   };
 
   return (
@@ -51,7 +51,6 @@ export default function Home() {
               </span>
             </h2>
 
-            <Service {...softwareConsultancyData} />
             <Serviceres {...websiteDevelopmentData} />
             <Service {...ecommmerce} />
           </Container>

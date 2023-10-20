@@ -20,7 +20,7 @@ export const Service = ({
 }: ServiceProps) => {
   return (
     <article id={slug}>
-      <h3 className="headline mt-20 text-xl md:text-2xl lg:text-4xl">
+      <h3 className="headline mt-20 py-6 text-xl md:text-2xl lg:text-4xl">
         {title}
       </h3>
       <div

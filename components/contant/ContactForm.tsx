@@ -111,9 +111,10 @@ export const ContactForm = () => {
                 </div>
               )}
               {error && (
-                <div className="rounded-md bg-red-100 px-4 py-2 font-bold text-red-600 ring-1 ring-red-600">
-                  Something went wrong, please try again!
-                </div>
+               <div className="rounded-md bg-green-100 px-4 py-2 font-bold text-green-600 ring-1 ring-green-600">
+               Thanks for your message. I will get back to you as soon as I
+               can.
+             </div>
               )}
               {isRecruiter ? (
                 <p className="font-bold text-red-600">
