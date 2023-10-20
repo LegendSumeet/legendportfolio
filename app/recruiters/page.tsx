@@ -22,7 +22,7 @@ const RecruitersPage = async () => {
 		<AnimatePage>
 			<Container>
 				<h1 className="headline mt-8 text-3xl md:text-5xl lg:text-6xl">
-					Hi, I&apos;m Jacob!
+					Hi, I&apos;m Sumeet Vishwakarma!
 				</h1>
 				<p className="headline mb-16 text-xl md:text-2xl lg:text-3xl">
 					Nice to meet you.
