@@ -22,7 +22,12 @@ const Floatingvideo = ({
 
   return (
     <div className="relative py-8 inline-block">
-      <video ref={videoRef} width={720} height={600} autoPlay loop>
+      <video  ref={videoRef}
+        width={720}
+        height={600}
+        autoPlay
+        loop
+        preload="auto" >
         <source src={mainImage} type="video/mp4" />
         
       </video>
