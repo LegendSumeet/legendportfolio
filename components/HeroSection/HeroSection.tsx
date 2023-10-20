@@ -34,7 +34,7 @@ export const HeroSection = () => {
 					<div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
 						<p className="text-lg leading-8 text-white dark:text-off-white">
 							I am a passionate Software Engineer, specialised in front-end
-							development using React and TypeScript. As an advocate for web
+							development using React and TypeScript. As an advocate for web and app
 							performance and accessibility and an evangelist for the Jamstack,
 							I create amazing web applications to make the internet a better
 							place.
