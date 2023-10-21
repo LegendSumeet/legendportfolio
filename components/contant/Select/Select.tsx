@@ -31,7 +31,7 @@ export const Select = ({ label, id, options }: SelectProps) => {
           onChange={field.onChange}
           onBlur={field.onBlur}
         >
-          <option className="text-white" value="">Please select</option>
+          <option value="">Please select</option>
           {options.map((option) => (
             <option value={option} key={option}>
               {option}
