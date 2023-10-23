@@ -1,4 +1,3 @@
-
 "use client"
 import React, { useState, useEffect } from "react";
 import { AnimatePage } from "@/components/animate/AnimatePage";
@@ -11,8 +10,6 @@ const CaseStudiesPage = () => {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    // In a real application, you would make an API call here to fetch the data.
-    // For the sake of example, we assume DesignData is available immediately.
     setDesignsData(DesignData);
     setLoading(false);
   }, []);
