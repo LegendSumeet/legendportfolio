@@ -18,7 +18,7 @@ const Logo = ({ hideName }: LogoProps) => {
 				initial={{ opacity: 0, y: -10 }}
 			>
 				<Image
-					src="https://png2.cleanpng.com/sh/c2a2742f5d85f9c4fffea791df22f70b/L0KzQYm3U8I6N5poj5H0aYP2gLBuTfNwdaF6jNd7LXnmf7B6TgV0baMyiOR4ZnnvdX73hgJ0d58yTdNrZEi4Q4HrUPE0PWMzSqIAMEO8Q4K4VcIzO2cAUKY5OEW3RnB3jvc=/kisspng-computer-icons-user-profile-person-5abd8530d0a352.2050393115223698408546.png"
+					src="/dp.jpg"
 					width={48}
 					height={48}
 					quality={100}
