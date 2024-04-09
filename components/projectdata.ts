@@ -24,14 +24,14 @@ const caseStudiesData: CaseStudy[] = [
         logo: "/Photo.png",
       },
       mainImage:
-        "https://raw.githubusercontent.com/LegendSumeet/Portfolio/main/src/Assets/Projects/codehub.jpg",
+        "https://github.com/LegendSumeet/codehub/assets/85386116/93ce6fbf-1363-4976-b763-1d5d975f758c",
       publishedAt: "2023-01-15",
       secondaryImages: ["/Photo.png", "/Photo.png"],
       seoDescription: "Description for SEO 1",
       skills: ["Flutter", "FireBase", "Nodejs", "Cloud", "Rest Api"],
       slug: "codehub",
       title: "CodeHUB App",
-      url: "https://github.com/LegendSumeet/CodeHUBApp",
+      url: "https://github.com/LegendSumeet/codehub",
     },
     {
         body: [
