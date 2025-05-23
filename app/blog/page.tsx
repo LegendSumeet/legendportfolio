@@ -6,15 +6,15 @@ import { Slide } from "../animation/Slide";
 import PageHeading from "@/app/components/shared/PageHeading";
 
 export const metadata: Metadata = {
-  title: "Blog | Victor Eke",
-  metadataBase: new URL("https://victoreke.com/blog"),
+  title: "Blog | Sumeet Vishwakarma",
+  metadataBase: new URL("https://legendsumeet.vercel.app"),
   description: "Read latest stories from Victor Eke's Blog",
   openGraph: {
-    title: "Blog | Victor Eke",
-    url: "https://victoreke.com/blog",
-    description: "Read latest stories from Victor Eke's Blog",
+    title: "Blog | Sumeet Vishwakarma",
+    url: "https://legendsumeet.vercel.app/blog",
+    description: "Read latest stories from Sumeet Vishwakarma's Blog",
     images:
-      "https://res.cloudinary.com/victoreke/image/upload/v1692636087/victoreke/blog.png",
+      "https://pub-aeb4b56fc7304a9da5d176334162ca95.r2.dev/Black%20and%20Purple%20Modern%20Graphic%20Design%20Business%20Card/2.png",
   },
 };
 

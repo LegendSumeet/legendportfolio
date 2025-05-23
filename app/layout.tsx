@@ -15,12 +15,12 @@ const inter = Inter({
 });
 
 const options = {
-  title: "Victor Eke | Software Developer",
+  title: "Sumeet Vishwakarma | Full Stack Developer",
   description:
-    "Victor Eke is a Software Developer and Technical Writer who is passionate about building solutions and contributing to open source communities",
-  url: "https://victoreke.com",
+    "Sumeet Vishwakarma is a Software Developer and Technical Writer who is passionate about building solutions and contributing to open source communities",
+  url: "https://legendsumeet.vercel.app",
   ogImage:
-    "https://res.cloudinary.com/victoreke/image/upload/v1692635746/victoreke/og.png",
+    "https://pub-aeb4b56fc7304a9da5d176334162ca95.r2.dev/Black%20and%20Purple%20Modern%20Graphic%20Design%20Business%20Card/1.png",
 };
 
 export const metadata: Metadata = {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: options.title,
     url: options.url,
-    siteName: "victoreke.com",
+    siteName: "legenedsumeet.vercel.app",
     locale: "en-US",
     type: "website",
     description: options.description,
@@ -39,9 +39,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: options.url,
   },
-  other: {
-    "google-site-verification": "IzcWMgn5Qjf-LCtA337KTGjivsf9bmod_1pZ-jxYQh8",
-  },
+  // other: {
+  //   "google-site-verification": "IzcWMgn5Qjf-LCtA337KTGjivsf9bmod_1pZ-jxYQh8",
+  // },
 };
 
 export default function RootLayout({

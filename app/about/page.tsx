@@ -12,17 +12,17 @@ import { sanityFetch } from "@/lib/sanity.client";
 import RefLink from "../components/shared/RefLink";
 
 export const metadata: Metadata = {
-  title: "About | Victor Eke",
-  metadataBase: new URL("https://victoreke.com/about"),
+  title: "About | Sumeet Vishwakarma",
+  metadataBase: new URL("https://legendsumeet.vercel.app/about"),
   description:
     "Learn more about my skills, experience and technical background",
   openGraph: {
-    title: "About | Victor Eke",
-    url: "https://victoreke.com/about",
+    title: "About | Sumeet Vishwakarma",
+    url: "https://legendsumeet.vercel.app/about",
     description:
       "Learn more about my skills, experience and technical background",
     images:
-      "https://res.cloudinary.com/victoreke/image/upload/v1692635746/victoreke/og.png",
+      "https://pub-aeb4b56fc7304a9da5d176334162ca95.r2.dev/Black%20and%20Purple%20Modern%20Graphic%20Design%20Business%20Card/1.png",
   },
 };
 
@@ -78,7 +78,7 @@ export default async function About() {
                 <div className="flex flex-col text-center gap-y-4">
                   <div className="flex items-center gap-x-3">
                     <RefLink
-                      href="https://www.craft.me/s/WQpQF3jrPIodXp"
+                      href="https://cdn.sanity.io/files/udtg8b8i/production/c1b8698d86f52ead05c35f4b5e883e0fc59df12f.pdf"
                       className="flex items-center justify-center text-center gap-x-2 basis-[90%] dark:bg-primary-bg bg-zinc-100 border border-transparent dark:hover:border-zinc-700 hover:border-zinc-200 rounded-md py-2 text-lg font-incognito font-semibold"
                     >
                       View Résumé <BiLinkExternal className="text-base" />

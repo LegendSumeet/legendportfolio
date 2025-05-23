@@ -9,15 +9,15 @@ import { sanityFetch } from "@/lib/sanity.client";
 import PageHeading from "../components/shared/PageHeading";
 
 export const metadata: Metadata = {
-  title: "Project | Victor Eke",
-  metadataBase: new URL("https://victoreke.com/projects"),
-  description: "Explore projects built by Victor Eke",
+  title: "Project | Sumeet Vishwakarma",
+  metadataBase: new URL("https://legendsumeet.vercel.app/projects"),
+  description: "Explore projects built by Sumeet Vishwakarma",
   openGraph: {
-    title: "Projects | Victor Eke",
-    url: "https://victoreke.com/projects",
-    description: "Explore projects built by Victor Eke",
+    title: "Projects | Sumeet Vishwakarma",
+    url: "https://legendsumeet.vercel.app/projects",
+    description: "Explore projects built by Sumeet Vishwakarma",
     images:
-      "https://res.cloudinary.com/victoreke/image/upload/v1692636087/victoreke/projects.png",
+      "https://pub-aeb4b56fc7304a9da5d176334162ca95.r2.dev/Black%20and%20Purple%20Modern%20Graphic%20Design%20Business%20Card/4.png",
   },
 };
 
